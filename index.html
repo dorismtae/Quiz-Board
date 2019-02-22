@@ -9,83 +9,82 @@
   <div class="container">
     <div class="jumbotron">
       <h1>QUIZ-BOARD</h1>
+<div id= "question-board">
+      <form>
+        <div class="form-group">
+          <ol>
+            <li>What is the longform of DOM ?</li>
+            <div class="radio">
+              <label><input name="q1" type="radio" value="Document Object model"> Document Object model.</label>
+            </div>
+            <div class="radio">
+              <label><input name="q1" type="radio" value="Document Object manipulation"> Document Object manipulation.</label>
+            </div>
+            <div class="radio">
+              <label><input name="q1" type="radio" value="None of the above"> None of the above.</label>
+            </div>
 
-    <form>
-      <div class="form-group">
-        <ol>
-          <li>What is the longform of DOM ?</li>
-            <div class="radio">
-              <label><input checked name="flavor" type="radio" value="chocolate"> Document Object model.</label>
-            </div>
-            <div class="radio">
-              <label><input name="flavor" type="radio" value="vanilla"> Document Object manipulation.</label>
-            </div>
-            <div class="radio">
-              <label><input name="flavor" type="radio" value="cookiesandcream"> None of the above.</label>
-            </div>
-            </form>
-            <form>
-                <li>Is JavaScript a programming language ?</li>
-                <li style="list-style: none; display: inline">
-                  <div class="radio">
-                    <label><input checked name="flavor" type="radio" value="chocolate"> Yes</label>
-                  </div>
-                  <div class="radio">
-                    <label><input name="flavor" type="radio" value="vanilla"> No</label>
-                  </div>
-                </li>
-            </form>
-            <form>
-                <li>What does bug mean ?</li>
-                <li style="list-style: none; display: inline">
-                  <div class="radio">
-                    <label><input checked name="flavor" type="radio" value="chocolate"> HTML code </label>
-                  </div>
-                  <div class="radio">
-                    <label><input name="flavor" type="radio" value="vanilla"> Line of code </label>
-                  </div>
-                  <div class="radio">
-                    <label><input name="flavor" type="radio" value="vanilla"> Error in code </label>
-                  </div>
-                </li>
-            </form>
-            <form>
-                <li> "em" is what kind of element ? </li>
-                <li style="list-style: none; display: inline">
-                  <div class="radio">
-                    <label><input checked name="flavor" type="radio" value="chocolate"> no element </label>
-                  </div>
-                  <div class="radio">
-                    <label><input name="flavor" type="radio" value="vanilla"> Block element</label>
-                  </div>
-                  <div class="radio">
-                    <label><input name="flavor" type="radio" value="vanilla"> Inline element</label>
-                  </div>
-                </li>
-            </form>
-            <form>
-                <li> var firstName ="hr". What would be the answer if i write firstName in my console ? </li>
-                <li style="list-style: none; display: inline">
-                  <div class="radio">
-                    <label><input checked name="flavor" type="radio" value="chocolate"> undefined </label>
-                  </div>
-                  <div class="radio">
-                    <label><input name="flavor" type="radio" value="vanilla"> "hr" </label>
-                  </div>
-                  <div class="radio">
-                    <label><input name="flavor" type="radio" value="vanilla"> Unexpected error </label>
-                  </div>
-                </li>
-            </form>
-            <button class="btn btn-primary" id="hello">Submit</button>
-</div>
+            <li>Is JavaScript a programming language ?</li>
+            <li style="list-style: none; display: inline">
+              <div class="radio">
+                <label><input name="q2" type="radio" value="Yes"> Yes</label>
+              </div>
+              <div class="radio">
+                <label><input name="q2" type="radio" value="No"> No</label>
+              </div>
+            </li>
+            <li>What does bug mean ?</li>
+            <li style="list-style: none; display: inline">
+              <div class="radio">
+                <label><input name="q3" type="radio" value="HTML code"> HTML code </label>
+              </div>
+              <div class="radio">
+                <label><input name="q3" type="radio" value="Line of code"> Line of code </label>
+              </div>
+              <div class="radio">
+                <label><input name="q3" type="radio" value=" Error in code"> Error in code </label>
+              </div>
+            </li>
 
-          <!-- </li>
-        </ol> -->
-      </div>
-  <!-- </div>
-</div> -->
+            <li> "em" is what kind of element ? </li>
+            <li style="list-style: none; display: inline">
+              <div class="radio">
+                <label><input name="q4" type="radio" value="no element"> no element </label>
+              </div>
+              <div class="radio">
+                <label><input name="q4" type="radio" value="Block element"> Block element</label>
+              </div>
+              <div class="radio">
+                <label><input name="q4" type="radio" value="Inline element"> Inline element</label>
+              </div>
+            </li>
+
+
+            <li>What does modulus operator calculate ? </li>
+            <li style="list-style: none; display: inline">
+              <div class="radio">
+                <label><input name="q5" type="radio" value="sum"> sum</label>
+              </div>
+              <div class="radio">
+                <label><input name="q5" type="radio" value="remainder"> remainder</label>
+              </div>
+              <div class="radio">
+                <label><input name="q5" type="radio" value="percentage"> percentage </label>
+              </div>
+            </li>
+          </form>
+          <button type="submit" class="btn btn-primary" id="hello">Submit</button>
+          </div>
+        </div>
+
+        <!-- </li>
+      </ol> -->
+    </div>
+    <!-- </div>
+  </div> -->
 
 
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
+<script src="js/scripts.js" charset="utf-8"></script>
 </html>
