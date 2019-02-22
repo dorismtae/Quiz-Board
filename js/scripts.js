@@ -18,7 +18,7 @@ $(document).ready(function(){
   else {
     Result +=0;
   }
-  if (qThree==="Error in code"){
+  if (qThree ==="Error in code"){
     Result += 20;
   }
   else {
