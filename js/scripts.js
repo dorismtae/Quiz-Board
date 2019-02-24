@@ -36,6 +36,7 @@ $(document).ready(function(){
   else {
     Result +=0;
   }
-alert(Result);
+$("#Results").text("you have scored:"  +Result +"%");
+
 });
 });
