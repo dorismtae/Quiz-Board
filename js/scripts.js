@@ -6,19 +6,19 @@ $(document).ready(function(){
   var qFour = $("input:radio[name=q4]:checked").val();
   var qFive = $("input:radio[name=q5]:checked").val();
   var Result = 0;
-  if (qOne ==="Document Object model"){
+  if (qOne ==="correct"){
     Result += 20;
   }
   else {
     Result +=0;
   }
-  if (qTwo ==="Yes"){
+  if (qTwo ==="correct"){
     Result += 20;
   }
   else {
     Result +=0;
   }
-  if (qThree ==="Error in code"){
+  if (qThree ==="correct"){
     Result += 20;
   }
   else {
