@@ -36,7 +36,9 @@ $(document).ready(function(){
   else {
     Result +=0;
   }
-$("#Results").text("you have scored:"  +Result +"%");
+$("#results").text("Your score is: "  +Result +"%");
+$("#results").show();
+event.preventDefault();
 
 });
 });
