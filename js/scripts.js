@@ -24,13 +24,13 @@ $(document).ready(function(){
   else {
     Result +=0;
   }
-  if (qFour ==="Inline element"){
+  if (qFour ==="correct"){
     Result += 20;
   }
   else {
     Result +=0;
   }
-  if (qFive ==="remainder"){
+  if (qFive ==="correct"){
     Result += 20;
   }
   else {
