@@ -1,3 +1,4 @@
+//Business Logic
 $(document).ready(function(){
   $("#question-board").submit (function(){
   var qOne = $("input:radio[name=q1]:checked").val();
@@ -36,6 +37,7 @@ $(document).ready(function(){
   else {
     Result +=0;
   }
+  //Business Logic
 $("#results").text("Your score is: "  +Result +"%");
 $("#results").show();
 event.preventDefault();
