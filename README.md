@@ -6,7 +6,11 @@ This is an application which allows a user to answer various questions through r
 ## Setup/Installation Requirements
 #### clone: https://github.com/dorismtae/Quiz-Board
 ## Behavior Driven Development
-
+|  BEHAVIOR             | INPUT EXAMPLES               | OUTPUT EXAMPLES |
+|-----------------------|------------------------------|-----------------|
+| Choose correct answer | Document object model        | 20 %            |   
+| Choose wrong answer   | Document object manipulation | 0%              |  
+|                       |                              |                 |  
 ## Known Bugs
 { none }
 ## Technologies Used
