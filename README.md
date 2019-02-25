@@ -21,6 +21,6 @@ This is an application which allows a user to answer various questions through r
  dorismtae@gmail.com
 Copyright (c) {2019} **{DORIS MTAE}**
 
-##LICENSE
+LICENSE
 
 * [MIT LICENSE](LICENSE)
