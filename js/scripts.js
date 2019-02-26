@@ -37,7 +37,7 @@ $(document).ready(function(){
   else {
     Result +=0;
   }
-  //Business Logic
+  //User interface
 $("#results").text("Your score is: "  +Result +"%");
 $("#results").show();
 event.preventDefault();
