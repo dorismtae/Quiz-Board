@@ -18,5 +18,9 @@ This is an application which allows a user to answer various questions through r
 * CSS
 * JavaScript
 ## Support and contact details
-{ dorismtae@gmail.com}
+ dorismtae@gmail.com
 Copyright (c) {2019} **{DORIS MTAE}**
+
+LICENSE
+
+* [MIT LICENSE](LICENSE)
