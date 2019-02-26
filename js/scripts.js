@@ -37,8 +37,21 @@ $(document).ready(function(){
   else {
     Result +=0;
   }
+  function comments(Result){
+    if(Result<= 49 ){
+     comms = "You have scored poorly and you need to retake the test."
+     return comms;
+   }
+    else if (Result>=50 && Result <80 ){
+      comms = "You have fairly passed."
+      return comms;
+    }
+    else {
+      comms = "You have excellently passed."
+    }
+  }
   //User interface
-$("#results").text("Your score is: "  +Result +"%");
+$("#results").text("Your score is: "  +Result +"% " +comments(Result));
 $("#results").show();
 event.preventDefault();
 
